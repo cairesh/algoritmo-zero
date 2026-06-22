@@ -1,16 +1,51 @@
-# React + Vite
+# Algoritmo Zero — Front-end
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma web educacional voltada ao ensino de lógica de programação para iniciantes. Este repositório contém a aplicação front-end, construída com React.
 
-Currently, two official plugins are available:
+🔗 **API:** [algoritmo-zero-api](https://github.com/cairesh/algoritmo-zero-api)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Objetivo
 
-## React Compiler
+Ensinar lógica de programação para iniciantes através de conteúdos teóricos, exercícios práticos com correção automática e acompanhamento de desempenho.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias
 
-## Expanding the ESLint configuration
+- **React** — biblioteca para construção da interface
+- **Vite** — build tool e dev server
+- **Tailwind CSS** — estilização
+- **React Router** — navegação entre páginas
+- **Framer Motion** — animações
+- **Three.js / React Three Fiber** — efeitos visuais 3D
+- **Axios** — comunicação com a API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Funcionalidades
+
+- Cadastro e login de usuários
+- Dashboard com progresso do estudante
+- Visualização de conteúdo teórico
+- Exercícios interativos com correção automática
+- Painel do professor para gerenciar módulos e exercícios
+- Rotas protegidas por autenticação
+
+## 📦 Como rodar localmente
+
+```bash
+npm install
+npm run dev
+```
+
+Acesse `http://localhost:5173`
+
+> ⚠️ Necessário que a [API](https://github.com/cairesh/algoritmo-zero-api) esteja rodando em paralelo.
+
+## 📚 Público-alvo
+
+Iniciantes em programação e estudantes do ensino público.
+
+## 📌 Status
+
+Em desenvolvimento — Projeto acadêmico de Engenharia de Software (FACET/UFGD).
+
+## 👤 Autor
+
+Henrique Caires da Silva
